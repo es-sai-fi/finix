@@ -3,6 +3,7 @@ name: "run statix check"
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   statix:
